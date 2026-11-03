@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "yet-another-power-meter",
+  "name": "Yet Another Power Meter",
+  "version": "0.1.0",
+  "author": "Lluís Suñol Juliachs",
+  "description": "Shows instantaneous battery power draw in watts",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "Widget.qml" },
+  "barWidget": {
+    "displayName": "Power meter",
+    "description": "Instantaneous power draw",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
